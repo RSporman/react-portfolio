@@ -2,12 +2,14 @@ import React from 'react';
 import Header from '../components/Header/Header';
 import { Card, Button } from 'react-bootstrap';
 import Codequiz from './assets/code-quiz.png';
+import Vocabularybee from './assets/vocabulary-bee.png';
 import projects from './assets/projects.json';
 import './assets/main-style.css';
 
 function Portfolio() {
     const images = {
-        Codequiz
+        Codequiz,
+        Vocabularybee
 
     };
     return (

@@ -4,15 +4,15 @@
         "image": "Codequiz",
         "imageAlt": "screenshot of Code Quiz Site",
         "site": "https://rsporman.github.io/code-quiz/",
-        "description": "something",
+        "description": "Test your sports knowledge with my new interactive app",
         "github": "https://github.com/RSporman/code-quiz"
     }, 
     {
-        "title": "Code Quiz",
-        "image": "Codequiz",
-        "imageAlt": "screenshot of Code Quiz Site",
-        "site": "https://rsporman.github.io/code-quiz/",
-        "description": "something",
-        "github": "https://github.com/RSporman/code-quiz"
+        "title": "Vocabulary Bee",
+        "image": "Vocabularybee",
+        "imageAlt": "screenshot of Vocabulary Bee Project",
+        "site": "https://floating-earth-22602.herokuapp.com/",
+        "description": "He/she would like to start learning a new language for pleasure or business and would like to get a foundational knowledge before committing to investing their time to learning that language.",
+        "github": "https://github.com/abouelelas/Project-3"
     }
 ]
