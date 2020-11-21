@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../components/Header/Header';
 import { Card, Button } from 'react-bootstrap';
+import './assets/main-style.css';
 
 function Home() {
     const cardInfo = [
@@ -26,13 +27,14 @@ function Home() {
             text: 'Checkout Recent Projects',
             button: true,
             buttonText: 'Open Resume',
-            link: './'
+            link: 'https://github.com/RSporman/react-portfolio/blob/main/src/pages/resume-bobby-sporman-2020.pdf'
         },
     ];
     return (
         <>
             <Header />
             <main className='width-limit display-flex'>
+                <section className='card-group'>
                 {cardInfo.map(i => 
                 <Card style={{ width: '18rem' }}>
                     <Card.Body>
@@ -40,11 +42,14 @@ function Home() {
                         <Card.Text>
                             {i.text}
                          </Card.Text>
-                        <Button variant="primary"></Button>
+                { i.button ? <a href={i.link}><Button variant="primary">{i.buttonText}</Button></a> : <div></div>}
+                        
+                        
                     </Card.Body>
                 </Card>
             )
                 }
+                </section>
             </main>
         </>
     )

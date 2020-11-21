@@ -4,6 +4,7 @@ import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import Home from './pages/Home';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Contact />
         </Route>
       </Switch>
+      <Footer/>
     </Router>
   );
 }
